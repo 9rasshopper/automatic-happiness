@@ -22,16 +22,12 @@ public class Player : MonoBehaviour
     float jumpCount = 2;
     public float jumpPower;
     public float playerDmg = 1;
-    
     bool isGround;
-
-    
 
     private void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-
     }
 
     private void Update()
